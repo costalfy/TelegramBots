@@ -73,7 +73,7 @@
         <jackson.version>2.10.1</jackson.version>
         <jacksonanotation.version>2.10.1</jacksonanotation.version>
         <json.version>20180813</json.version>
-        <guava.version>28.1-jre</guava.version>
+        <guava.version>30.0-android</guava.version>
     </properties>
 
     <dependencies>
@@ -239,7 +239,7 @@
                 </executions>
                 <configuration>
                     <rules>
-                        <DependencyConvergence />
+                        <DependencyConvergence/>
                     </rules>
                 </configuration>
             </plugin>
